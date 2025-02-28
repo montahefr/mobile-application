@@ -1,0 +1,2 @@
+C:/Users/monta/Desktop/PFE/project1/android/app/.cxx/Debug/3g233s5o/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/monta/Desktop/PFE/project1/android/app/.cxx/Debug/3g233s5o/armeabi-v7a/CMakeFiles/rebuild_cache.dir

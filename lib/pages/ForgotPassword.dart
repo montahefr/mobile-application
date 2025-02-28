@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project1/pages/login.dart';
-// Import the login page
+import 'package:project1/pages/login.dart'; // Ensure login.dart is correctly imported
 
 class ForgotPassword extends StatelessWidget {
   @override
@@ -61,10 +60,6 @@ class ForgotPassword extends StatelessWidget {
                   children: [
                     SizedBox(height: 20),
 
-                    // Instruction Text
-                    
-                    SizedBox(height: 20),
-
                     // Email Input
                     TextField(
                       style: TextStyle(color: Colors.black),
@@ -107,7 +102,7 @@ class ForgotPassword extends StatelessWidget {
                       onPressed: () {
                         Navigator.pushReplacement(
                           context,
-                          MaterialPageRoute(builder: (context) => LoginPage()),
+                          MaterialPageRoute(builder: (context) => LoginScreen()),
                         );
                       },
                       child: Text(
